@@ -957,7 +957,7 @@ button {
    */
 
   .container,
-  .hero-content { max-width: 720px; }
+  .hero-content { min-width: 720px; }
 
   .btn { padding: 16px 32px; }
 
@@ -1013,6 +1013,17 @@ button {
 
   .about .section-text { max-width: 520px; }
 
+   /*AVALIAÇÕES*/
+
+/* testimonials */
+.testimonials{
+  flex-direction: row;
+  /* 
+  A partir de 720px, as avaliações ficarão lado a lado (em linha), 
+  porque o flex-direction: row organiza os itens na horizontal 
+  (da esquerda para a direita).
+*/
+}
 
 
   /**
